@@ -4,6 +4,7 @@ count = 0
 # Variables for first and last student
 first_student = ""
 last_student = ""
+<<<<<<< Updated upstream
 
 # Read file line by line
 for line in file:
@@ -26,3 +27,23 @@ for line in file:
 
         # Store last student
         last_student = line
+=======
+# Display total students
+print("Total number of students:", count)
+
+print()
+
+# Display first student
+print("First Student according to Student ID:")
+print(first_student)
+
+# Display last student
+print("Last Student according to Student ID:")
+print(last_student)
+
+# Close files
+file.close()
+output.close()
+
+print("group_4.txt file created successfully.")
+>>>>>>> Stashed changes
