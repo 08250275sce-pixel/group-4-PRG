@@ -1,3 +1,10 @@
+#File Handling in python
+#Group 4-Student IDs ending with 8 or 9
+#Open students.txt file
+file=open("std.txt","r")
+#create output file
+output=open("group_4.txt","w")
+print("Selected Students:")
 # Variable to count students
 count = 0
 
